@@ -1,0 +1,30 @@
+.wrapper {
+	border: 1px solid green;
+	width: 350px;
+}
+.red {
+	color: red;
+}
+.green {
+	color: green;
+}
+.h2Red {
+	color: red;
+}
+p {
+	color: blue;
+}
+.pRed {
+	color: red;
+}
+#btn {
+	border-color: green;
+	color: green;
+	width: 200px;
+	height: 50px;
+}
+#input {
+	border-color: red;
+	width: 200px;
+
+}

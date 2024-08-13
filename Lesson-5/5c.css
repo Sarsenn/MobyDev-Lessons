@@ -1,0 +1,20 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+}
+.text1,.text2,.text3,.text4 {
+	border: 1px solid #5ee0e6;
+	background-color: #5ee0e6;
+	margin: 10px;
+}
+.text1 {
+	width: 300px;
+	height: 150px;
+}
+.text2 {
+	width: 300px;
+	height: 300px;
+}
+.text3 {
+	flex-grow: 1;
+}

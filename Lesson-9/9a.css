@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
+ body {
+	font-family: "Anek Devanagari", sans-serif;
+ }
+img {
+	width: 100%;
+	height: 100%;
+}
+a {
+	text-decoration: none;
+	color: rgba(42, 129, 221,);;
+	font-weight: 700;
+}
+.container {
+	width: 1024px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.items {
+	flex: 1;
+	margin: 0 5px;
+	border: 2px solid grey;
+	display: flex;
+	flex-direction: column;
+	border-radius:5px;
+
+}
+.items:hover {
+	box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
+}
+.items:hover .price {
+	transition: 1s all ease;
+	color: #e9b739;
+}
+.items:hover .picture {
+	transition: 1s all ease;
+	transform: scale(1.2);
+	border-radius: 15px;
+}
+
+.picture {
+	height: 40%;
+	overflow: hidden;
+}
+.wrapper {
+	padding: 10px;
+	border-top: 2px solid grey;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.price {
+	padding: 10px;
+	display: flex;
+	font-size: 18px;
+	font-weight: 700;
+	flex-grow: 1;
+	align-items: end;
+	overflow: hidden;
+}
+
+.descr {
+margin-top: 20px;
+}
+.title {
+	margin-top: 20px;
+
+}
+
+@media (max-width: 1024px) {
+	.container {
+		width: 530px;
+	}
+	.items {
+		flex: none;
+		width: 250px;
+	}
+	.items:last-child {
+		margin-top: 20px;
+	}
+}
