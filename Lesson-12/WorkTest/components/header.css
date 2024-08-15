@@ -1,0 +1,53 @@
+
+.header {
+	padding: 20px 30px;
+	border: 1px solid black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+}
+.header .header__container {
+	display: flex;
+	justify-content: space-between;
+}
+.header .header__container .header__icon {
+	
+}
+
+.header .header__container .header__list {
+	display: flex;
+	justify-content: space-between;
+}
+.header .header__container .header__list .header__list-item {
+	margin-right: 20px;
+}
+.header .header__container .header__list .header__list-item a{
+	text-decoration: none;
+}
+
+.header .header__container .header__list .active  {
+	color: red;
+	text-decoration: underline;
+}
+
+.header .header__container .header__list .header__list-item a:visited{
+	text-decoration: none;
+	color: black;
+} 
+.header .header__container .header__list .active  a{
+	color: red !important;
+	text-decoration: underline;
+}
+
+.header .header__container .header__list .header__list-item:last-child {
+	margin-right: 0;
+}
+.header .header__container .header__list .header__list-item:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+.content {
+	padding-top: 101px;
+}

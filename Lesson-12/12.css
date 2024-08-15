@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+li {
+	list-style-type: none;
+}
+a {
+	color: #36415e;
+}
+body {
+	font-family: "Montserrat", sans-serif;
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+.container {
+}
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #fff;
+}
+.header__top {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20px;
+	height: 30px;
+}
+.header__top .header__top-city {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	color:#46ac4a;
+}
+.header__top .header__top-currency a{
+	margin-left: auto;
+	color: #666;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+	text-decoration: none;
+}
+.header__menu {
+	display: flex;
+	align-items:center;
+	margin-top: 5px;
+	height: 100%;
+	padding: 0 20px;
+	border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+.header__menu .list {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10px;
+}
+.header__menu .list .list__items {
+	padding: 10px 15px;
+	border-bottom: 3px solid transparent; 
+	
+}
+
+
+.header__menu .header__logo {
+	height: 100%;
+}
+.header__menu .list .list__items:hover {
+	border-bottom: 3px solid  rgba(0, 0, 0, .2);
+}
+.header__menu .list .list__items a {
+	align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+	line-height: 18px;
+	text-decoration: none;
+}
+.header__menu .list .list__items .list__hover {
+	padding: 16px;
+	width: 100%;
+	position: absolute;
+	background-color: #fff;
+	top: 79px;
+	border-top: 1px solid #f2f2f2;
+	left: 0;
+	z-index: 10;
+	border-bottom:1px solid rgba(0, 0, 0, .2);
+	box-shadow: 0 3px 3px #36415e1c, 0 15px 19px #0000001a;
+	display: none;
+
+
+
+}
+.header__menu .list .list__items .list__hover .list__hover-content {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: grid;
+	grid-row-gap: 24px;
+	grid-template-columns: 3fr 2fr;
+}
+.header__menu .list .list__items .list__hover .list__hover-content .list__hover-img{
+	border-radius: 8px;
+	height: 168px;
+	width: 480px;
+}
+
+.header__menu .list .list__items .list__hover  ul{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px 26px;
+
+}
+.header__menu .list .list__items .list__hover li{
+	border: 1px solid transparent;
+    border-radius: 4px;
+    color: #36415e;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 8px 15px;
+    text-align: left;
+}
+.header__menu .list .list__items .list__hover  ul li:hover{
+	border: 1px solid rgba(73, 199, 23,.2);
+	box-shadow: inset -1px -1px 5px 1px rgba(73, 199, 23,.2);
+}
+.header__menu .list .list__items:first-child a {
+	font-weight: 700;
+	color: #46ac4a;
+}
+.header__menu .header__menu-btn {
+	display: flex;
+	margin-left: auto;
+}
+.header__menu .header__menu-btn {
+	gap: 10px;
+	color: #43607e;;
+}
+.header__menu .header__menu-btn  .btn{
+	cursor: pointer;
+}
+.header__menu .header__menu-btn  .btn-lang{
+	display: flex;
+}
+.header__menu .header__menu-btn  .btn-lang svg{
+	order: 1;
+	fill: #43607e;
+}
+.header__menu .list .list__items:hover > .list__hover,
+.header__menu .list .list__items:hover {
+	display: initial;
+}
+.chat {
+	cursor: pointer;
+	border-radius:40px;
+	position: fixed;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	box-shadow: 2px 2px 30px rgba(0, 0, 0, .3);
+	color:rgb(84, 156, 240);;
+	background-color: #fff;
+	width:74px;
+	height: 74px;
+	right: 30px;
+	bottom: 60px;
+}
+.popup {
+	position: fixed;
+	right: 110px;
+	bottom: 30px;
+	border-radius:40px;
+	background-color: #fff;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	box-shadow: 2px 2px 30px rgba(0, 0, 0, .3);
+	color:rgb(84, 156, 240);
+	width: 50px;
+	height: 50px;
+}
+
+
